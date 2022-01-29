@@ -537,7 +537,7 @@ version = "0.1.0"
 description = "NixOS modules that don't quite belong in NixOS."
 category = "main"
 optional = false
-python-versions = "^3.9"
+python-versions = "^3.9, <3.11"
 develop = false
 
 [package.dependencies]
@@ -547,7 +547,7 @@ nixops = {git = "https://github.com/rdparker/nixops.git", rev = "master"}
 type = "git"
 url = "https://github.com/rdparker/nixos-modules-contrib.git"
 reference = "master"
-resolved_reference = "55b729f4478de4ad18daf7616ca9c59dbdc017c1"
+resolved_reference = "18d590f3f975177bd7ec8f93b3764979c23229fb"
 
 [[package]]
 name = "nose"
@@ -692,8 +692,8 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "940f47780c15b184c30be4a2af4d33a09ff3b22386d39317cd937963c7a44148"
+python-versions = "^3.9, <3.11"
+content-hash = "8bcd444a5f2e75710a42ff87438b6ee0fa7d19cf20d0265e1873c3142d447740"
 
 [metadata.files]
 appdirs = [
